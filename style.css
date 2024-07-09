@@ -1,6 +1,67 @@
-h1{
-    color:rgb(204, 0, 255)
- }
-h2{
-    color:rgb(0, 110, 255)
+header {
+    background-color: rgba(60, 60, 75, 0.4);
+    height: 80px;
+    width: 100%;
+
+}
+
+header h1 {
+    color: rgb(239, 238, 245);
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    line-height: 30px;
+    padding-inline: 20px;
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(247, 247, 252)
+}
+
+header a:hover {
+    text-decoration: underline;
+
+}
+
+.banner{
+    height: 95vh;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 60px;
+    color: white;
+}
+
+.banner p{
+    color: white;
+    font-size: 42px;
+    margin: 35px;
+}
+
+footer {
+    background-color: rgb(60, 60, 75, 0.8);
+    color: aliceblue;
+    line-height: 30px;
+
 }
